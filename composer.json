@@ -31,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-            "machour\\yii2\\google\\apiclient\\": ""
+            "machour\\yii2\\google\\gmail\\": ""
         }
     }
 }

@@ -1,0 +1,37 @@
+{
+    "name": "machour/yii2-google-gmail",
+    "description": "Data providers, widgets and helpers suited for the official GMail Api v1",
+    "version": "0.1.0",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "google",
+        "gmail"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/machour/yii2-google-gmail",
+    "time": "2015-10-24",
+    "authors": [
+        {
+            "name": "Mehdi Achour",
+            "email": "machour@gmail.com",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/machour/yii2-google-gmail/issues",
+        "source": "https://github.com/machour/yii2-google-gmail"
+    },
+    "require": {
+        "yiisoft/yii2": "~2",
+        "google/apiclient": "1.*" 
+    },
+    "suggest": {
+        "machour/yii2-google-apiclient": "Allow you to connect easily to the GMail API"
+    },
+    "autoload": {
+        "psr-4": {
+            "machour\\yii2\\google\\apiclient\\": ""
+        }
+    }
+}
